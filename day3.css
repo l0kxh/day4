@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Kanit:wght@500&display=swap');
+.head{
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    height: 50px;
+    position: fixed;
+    top: 0%;
+}
+.bdy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 15px 0px 25px;
+    margin-top: 5px;
+}
+.nav-container{
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav{
+    color: white;
+    font-family: 'Kanit';
+    text-decoration: none;
+}
+.nav:hover{
+    color: teal;
+}
+.hh{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    width: 72%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 50px;
+    margin-top: 110px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+.image{
+    object-fit: cover;
+}
+.title{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: teal;
+    margin: auto;
+    
+}
+p{
+    font-family: 'Josefin';
+}
+.body{
+    padding: 0 10px 0 10px;
+}
+.btn{
+    color: white;
+    width: 70px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: teal;
+}
+.btn:hover{
+    opacity: 0.5;
+}
